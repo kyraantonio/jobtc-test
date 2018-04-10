@@ -1,0 +1,61 @@
+{
+  "chat-eduoimdxqs0v_formdata": [],
+  "snapshot-eduoimdxqs0v_formdata": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\nsheet:c:1:r:1:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "chat-eduoimdxqs0v": [],
+  "snapshot-eduoimdxqs0v": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\ncell:A1:t:Test\ncell:A2:t:Test\nsheet:c:1:r:2:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "audit-eduoimdxqs0v": [
+    "set A1 text t Test",
+    "set A2 text t Test"
+  ],
+  "chat-job.tc": [],
+  "snapshot-job.tc": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\nsheet:c:1:r:1:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "chat-roxcdadb0o8n_formdata": [],
+  "snapshot-roxcdadb0o8n_formdata": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\nsheet:c:1:r:1:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "chat-roxcdadb0o8n": [],
+  "snapshot-roxcdadb0o8n": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\nsheet:c:1:r:1:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "chat-task-spreadsheet-42_formdata": [],
+  "snapshot-task-spreadsheet-42_formdata": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\nsheet:c:1:r:1:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "chat-task-spreadsheet-42": [],
+  "snapshot-task-spreadsheet-42": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\ncell:A3:t:Test\nsheet:c:1:r:3:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "chat-task-spreadsheet-26_formdata": [],
+  "chat-task-spreadsheet-26": [],
+  "snapshot-task-spreadsheet-26_formdata": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\nsheet:c:1:r:1:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "snapshot-task-spreadsheet-26": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\ncell:D5:t:f dsa fdsa \ncell:B10:t:fdsafdas\ncell:C11:t:fdsafsda\nsheet:c:4:r:11:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "audit-task-spreadsheet-26": [
+    "set B10 text t fdsafdas",
+    "set C11 text t fdsafsda",
+    "set D5 text t f dsa fdsa "
+  ],
+  "audit-task-spreadsheet-42": [
+    "set A3 text t Test"
+  ],
+  "chat-task-spreadsheet-2_formdata": [],
+  "snapshot-task-spreadsheet-2_formdata": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\nsheet:c:1:r:1:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "chat-task-spreadsheet-2": [],
+  "snapshot-task-spreadsheet-2": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\ncell:A1:v:321\ncell:C1:v:321\ncell:D1:v:321\ncell:F1:v:231\ncell:G1:v:123\ncell:H1:v:123\ncell:I1:v:1232\ncell:J1:v:123\ncell:K1:v:1231\ncell:B2:v:321321\ncell:D8:t:Test\ncell:D9:t:This is Jex\ncell:D11:t:This\ncell:D12:t:Test\nsheet:c:11:r:12:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "audit-task-spreadsheet-2": [
+    "set A1 value n 321",
+    "set B2 value n 321321",
+    "set C1 value n 321",
+    "set D1 value n 321",
+    "set F1 value n 231",
+    "set G1 value n 123",
+    "set H1 value n 123",
+    "set I1 value n 1232",
+    "set J1 value n 123",
+    "set D8 text t Test",
+    "set K1 value n 1231",
+    "set D9 text t This is Jex",
+    "set D11 text t This",
+    "set D12 text t Test",
+    "set D13 comment Test"
+  ],
+  "log-task-spreadsheet-2_formdata": [],
+  "log-task-spreadsheet-2": [
+    "set D13 comment Test"
+  ],
+  "snapshot-task-spreadsheet-2_jk1d1p8wn0fd": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\ncell:A1:v:321\ncell:C1:v:321\ncell:D1:v:321\ncell:F1:v:231\ncell:G1:v:123\ncell:H1:v:123\ncell:I1:v:1232\ncell:J1:v:123\ncell:K1:v:1231\ncell:B2:v:321321\ncell:D8:t:Test\ncell:D9:t:This is Jex\ncell:D11:t:This\ncell:D12:t:Test\nsheet:c:11:r:12:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "chat-task-spreadsheet-2_jk1d1p8wn0fd_formdata": [],
+  "snapshot-task-spreadsheet-2_jk1d1p8wn0fd_formdata": "socialcalc:version:1.0\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=SocialCalcSpreadsheetControlSave\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n# SocialCalc Spreadsheet Control Save\nversion:1.0\npart:sheet\npart:edit\npart:audit\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.5\nsheet:c:1:r:1:tvf:1\nvalueformat:1:text-wiki\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\nversion:1.0\nrowpane:0:1:1\ncolpane:0:1:1\necell:A1\n--SocialCalcSpreadsheetControlSave\nContent-type: text/plain; charset=UTF-8\n\n--SocialCalcSpreadsheetControlSave--\n",
+  "chat-task-spreadsheet-2_jk1d1p8wn0fd": []
+}

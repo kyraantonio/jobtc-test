@@ -1,0 +1,304 @@
+/*
+    User CSS
+    Created on : June 29, 2016, 8:34 PM
+    Author     : Jexter Dean Buenaventura
+*/
+
+body {
+    background-color: #D9D9D9 !important
+}
+
+.content {
+    background-color: #D9D9D9 !important;
+}
+
+.pager {
+    margin: 0;
+    padding: 2px;
+}
+.space {
+    padding: 15px;
+}
+.mini-space {
+    padding: 5px;
+}
+
+.single-applicant-pagination {
+    font-size: 15px;
+}
+.single-applicant-pagination a {
+    text-decoration: none;
+}
+
+.employee-photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+.applicant-posting-info {
+    padding: 10px;
+    background-color: #ffffff;
+    border-color: #fffdfb;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    /*box-shadow: 3px 5px 2px -1px rgba(15, 15, 15, 0.34);*/
+}
+.applicant-posting-info .row:last-child{
+  margin: 15px 0 0;
+}
+.applicant-posting-info .container-icon {
+    font-size: 40px;
+    line-height: 40px;
+    background: transparent;
+    color: #000000;
+    border-radius: 0px;
+    padding: 3px;
+}
+.applicant-posting-info ul li i {
+    font-size: 18px;
+}
+.applicant-posting-info .media-heading {
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+}
+.applicant-posting-info i {
+    font-size: 22px;
+}
+
+.applicant-posting-container .applicant-email {
+    font-size: 15px;
+}
+.applicant-posting-container .applicant-phone {
+    font-size: 20px;
+}
+.applicant-posting-container .applicant-job-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.applicant-posting-resume {
+    //height: 100%;
+    //height: 924px;
+    height: 1080px;
+    width: 100%;
+}
+
+.comment-item {
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px #AFAFAF;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.add-comment-form {
+    padding: 10px;
+    background-color: #ffffff;
+    border-color: #fffdfb;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    /*box-shadow: 3px 5px 2px -1px rgba(15, 15, 15, 0.34);*/
+}
+.add-comment-form .container-icon {
+    font-size: 40px;
+    line-height: 40px;
+    background: transparent;
+    color: #000000;
+    border-radius: 0px;
+    padding: 3px;
+}
+.add-comment-form ul li i {
+    font-size: 18px;
+}
+
+.employee-photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    max-width: none;
+}
+
+.profile-photo {
+    height: 180px;
+    width: 180px;
+    max-width: none;
+    background-color: transparent !important;
+}
+
+.comment-photo {
+    height: 70px;
+    width: 70px;
+    border-radius: 9999px;
+}
+
+.video-conference-container {
+  display: inline;
+  width: 50%;
+  margin: 0 auto;
+}
+.video-conference-container #remotes {
+  height: 50%;
+  width: 100%;
+}
+.video-conference-container #remoteVideo{
+  height: 600px;
+  width: 100%;
+}
+
+.video-conference-container #remoteVideo video {
+  height: 600px;
+  width: 100%;
+}
+
+.video-conference-container .localVideoContainer {
+  height: 600px;
+  width: 100%;
+}
+.video-conference-container .localVideoContainer #localVideo {
+  height: 100%;
+  width: 100%;
+}
+.video-conference-container .video-options {
+  background-color: #c0c0c0;
+}
+.video-conference-container .connectionstate {
+  position: relative;
+  top: -147px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  left: -160px;
+}
+.video-page-container .video-archive-item {
+  padding: 5px;
+  height: 40%;
+  width: 100%;
+}
+#video-tab {
+  /*border-style: inset;
+  background-color: #D1D1D1;*/
+}
+#video-archive-tab {
+  /*border-style: inset;
+  background-color: #D1D1D1;*/
+}
+.applicant .nav-tabs li.active a {
+  background-color: #fff;
+  border-color: #fff;
+  text-decoration: none;
+  color: #000;
+  /*font-weight: bold;*/
+}
+.applicant .nav-tabs a {
+  background-color: #c6c6c6;
+  text-decoration: none;
+  color: #000;
+  /*text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75) !important;*/
+}
+.applicant .nav-tabs li {
+  border: 5px #000;
+  margin-right: 4px;
+  /*font-weight: bold;
+  box-shadow: 0px 3px 5px #C6C6C6;*/
+}
+
+.save-progress,
+.total-files {
+  color: #fff;
+}
+.preview-video video {
+  padding: 5px;
+  height: 40%;
+  width: 100%;
+}
+.record-button i {
+  color: green;
+}
+.download-complete-sound {
+  display: none;
+}
+
+#job-title {
+  font-weight: bold;
+}
+.status-container {
+    display:none;
+}
+
+.comment-list-header {
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  /* W3C */
+  /* IE6-9 */
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, #9bc9d8 0%, #9bc9d8 50%, #90c3d4 51%, #90c3d4 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#9bc9d8, endColorstr=#90c3d4, GradientType=0);
+  /* IE6-9 */
+  box-shadow: 3px 5px 2px -1px rgba(15, 15, 15, 0.34);
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-topright: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  font-size: 18px !important;
+}
+.comment-list,
+.task-comment-list {
+  padding: 5px;
+  max-height: 400px !important;
+  height: auto !important;
+  overflow: auto !important;
+}
+.comment-item {
+  background-color: #ffffff;
+  box-shadow: 3px 5px 2px -1px rgba(15, 15, 15, 0.34);
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.comment-utilities {
+  float: right;
+  position: relative;
+  bottom: 20px;
+}
+.comment-utilities .fa {
+  font-size: 25px;
+}
+
+.applicant {
+    position: relative;
+    /*top: 15px;*/
+}
+
+.hire {
+    position:relative;
+    text-decoration: none;
+}
+.media{
+    margin-top: 0!important;
+}
+.media-heading{
+    white-space: nowrap;
+}

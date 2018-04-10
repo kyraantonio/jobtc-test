@@ -1,0 +1,40 @@
+# Change Log
+
+## [2.0.0] 2018-03-27
+### Bootstrap 4 update
+- Core base code on Bootstrap 4
+- Documentation code base written from scratch
+- Speed optimizations
+- Class changes : .card-block to .card-body
+- .navbar-toggleable-* to .navbar-expand-*
+- .hidden-*-down to .d-none .d-*-block
+- .hidden-*-up to .d-*-none
+- .checkbox to .form-check
+- .radio to .form-check
+- more class changes here:https://medium.com/@lukaszholeczek/how-to-upgrade-bootstrap-4-alpha-6-to-bootstrap-4-beta-d43b4210f2a3
+- Bug fixes for responsive devices
+- Small changes for components
+
+## [1.2.0] 2017-09-08
+### BugFixing
+- added PerfectScrollbar for windows better scroll
+- added arrive.js library for dynamic content
+- fix issue with charts when resizing window
+- change size of buttons for notifications on mobile
+- added pagination style
+- fixed issue with Bootstrap modal
+- added fixed navbar
+- documentation updates
+- minor design fixes
+
+## [1.1.1] 2017-02-08
+### MIT License
+- switched to MIT License
+
+## [1.1.0] 2016-11-10
+### New Page Added, Small Fixes
+- fix link in documentation
+- for those who want to upsell inside their dashboard we added a new page "Upgrade to PRO" with a pricing and options table
+
+## [1.0.0] 2016-09-21
+### Initial Release

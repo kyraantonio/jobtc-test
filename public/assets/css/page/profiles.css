@@ -1,0 +1,19 @@
+
+/* 
+    Profile Page CSS
+    Created on : Jun 6, 2016, 4:41:19 PM
+    Author     : Jexter Dean Buenaventura
+*/
+
+.profile-img {
+    height: 200px;
+    width: 200px;
+}
+
+.update-progress, .update-password {
+    display:none;
+}
+
+label.error {
+    //display:none !important;
+}

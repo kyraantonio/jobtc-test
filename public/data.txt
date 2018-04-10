@@ -1,0 +1,1 @@
+{"aaData":[["test event 1","event desc","17 Mar 2016","19 Mar 2016","<small class='badge bg-red'>pending<\/small>","<a href='event\/1\/edit' data-toggle='modal' data-target='#ajax'> <i class='fa fa-edit'><\/i> <\/a> <span class='hspacer'><\/span> <a href='event\/1\/delete' class='alert_delete'> <i class='fa fa-trash-o'><\/i> <\/a>"]]}

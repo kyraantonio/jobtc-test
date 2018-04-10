@@ -1,0 +1,48 @@
+.mini-space {
+    padding:5px;
+}
+
+#payroll-tabs li.active a,
+#payroll-tabs li a:active {
+    background-color: #e5e5e5 !important;
+    /*text-decoration: none;
+    color: #4285f4 !important;
+    color: #000 !important;
+    font-weight: bold;
+    text-shadow: 1px 3px 1px #ffffff, 0 0 0 #ffffff, 1px 1px 1px #ffffff!important;*/
+}
+
+#payroll-tabs a:focus {
+    
+}
+
+#payroll-tabs li a {
+    /*background-color: #4285f4;*/
+    text-decoration: none;
+    color: #000 !important;
+    /*font-weight: bold;*/
+    /*text-shadow:1px 1px 1px #000000, 0 0 0 #000000, 1px 1px 1px #000000!important;*/
+    text-shadow:none !important;
+}
+
+.additions-header {
+    color: green;
+}
+
+.deductions-header {
+    color: red;
+}
+
+.addition-total {
+    color: green;
+    font-weight: bold;
+}
+
+.deduction-total {
+    color: red;
+    font-weight: bold;
+}
+
+#payroll-table td {
+    vertical-align: top !important;
+}

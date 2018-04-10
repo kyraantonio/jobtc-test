@@ -1,0 +1,39 @@
+/*
+    Quizzes CSS
+    Created on : May 26, 2016, 5:57:00 PM
+    Author     : Jexter Dean Buenaventura
+*/
+
+.test-area, .form-control, .btn{
+    font-size: 20px!important;
+}
+.description-area{
+    text-align: justify;
+}
+.read-more.collapse.in{
+    display: inline;
+}
+
+.slider-container{
+        display: table;
+        margin: 0 auto;
+    }
+    .slider-div{
+        height: 300px;
+        display: none;
+    }
+    .slider-div.active{
+        display: table-row;
+    }
+    .slider-body{
+        /*width: 500px;*/
+        vertical-align: middle;
+        display: table-cell;
+    }
+    .answer-area{
+        margin-left: 20px;
+    }
+    
+    .btn {
+        padding: 3px 12px !important;
+    }

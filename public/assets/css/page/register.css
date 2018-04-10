@@ -1,0 +1,157 @@
+/*
+Register CSS
+    Created on : May 17, 2016, 8:38:59 PM
+    Author     : Jexter Dean Buenaventura
+*/
+
+.space {
+  padding: 15px;
+}
+.login-body {
+  background-color: #14406A!important;
+  padding-top: 150px;
+  width: 100%;
+}
+
+.login-container {
+  margin: 0 auto;
+  height: 300px;
+  width: 25%;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-color: #fffdfb;
+  -webkit-border-bottom-right-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  /*box-shadow: 4px 6px 15px #bbbbbb;*/
+  box-shadow: inset 0 0 15px rgba(0,0,0,.9),-1px 6px 15px -2px #bbbbbb;
+  background-image: url('login-bg.jpg');
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(20%, transparent), to(rgba(255, 255, 255, 0.2)));
+}
+.login-container .container-icon {
+  font-size: 40px;
+  line-height: 40px;
+  background: transparent;
+  color: #000000;
+  border-radius: 0px;
+  padding: 3px;
+}
+.login-container ul li i {
+  font-size: 20px;
+}
+.login-container .fa-lock {
+  font-size: 22px;
+}
+.login-container .checkbox input[type=checkbox] {
+  margin-left: 0px;
+}
+input{
+    color: #000000!important;
+    font-weight: 400!important;
+}
+input[type=submit]{
+    background: #062D56!important;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #D9D9D9;
+    width: 96%;
+  }
+  .navbar-toggle .fa-bars {
+    font-size: 6vw;
+  }
+  .applicant-posting-container .applicant-photo {
+    height: 120px;
+    width: 120px;
+  }
+  .login-container {
+    margin: auto;
+    height: 350px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-color: #fffdfb;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: inset 0 0 15px rgba(0,0,0,.9),-1px 6px 15px -2px #bbbbbb;
+    background-image: url('login-bg.jpg');
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(20%, transparent), to(rgba(255, 255, 255, 0.2)));
+  }
+  .login-container .container-icon {
+    font-size: 40px;
+    line-height: 40px;
+    background: transparent;
+    color: #000000;
+    border-radius: 0px;
+    padding: 3px;
+  }
+  .login-container ul li i {
+    font-size: 18px;
+  }
+  .login-container .fa-lock {
+    font-size: 20px;
+  }
+  .login-container .checkbox input[type=checkbox] {
+    margin-left: 0px;
+  }
+  .job-posting-container .job-header {
+    text-align: right;
+  }
+  .job-posting-container .job {
+    padding: 10px;
+    background-color: #ffffff;
+    border-color: #fffdfb;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: 4px 6px 15px #bbbbbb;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .job-posting-container .job .container-icon {
+    font-size: 40px;
+    line-height: 40px;
+    background: transparent;
+    color: #000000;
+    border-radius: 0px;
+    padding: 3px;
+  }
+  .job-posting-container .job ul li i {
+    font-size: 20px;
+  }
+  .job-posting-container .job .job-info .media-heading {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .job-posting-container .apply-to-job-mobile {
+    display: inline;
+  }
+}
+
+.content-container .main-content-container {
+  padding: 15px;
+  color: #000;
+  background: transparent;
+  border-radius: 10px;
+  display: table;
+  vertical-align: middle;
+}
+
+.input-group-addon {
+    background-color: #144371 !important;
+}
+
+.input-group-addon i{ 
+    color:#fff;
+}

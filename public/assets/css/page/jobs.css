@@ -1,0 +1,230 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2016, 8:39:30 PM
+    Author     : acer
+*/
+
+.space {
+  padding: 25px;
+}
+.mini-space {
+  padding: 5px;
+}
+
+#job-title {
+  font-weight: bold;
+}
+
+.job-posting-container {
+    margin: 0 auto;
+    /*width: 99%;*/
+}
+
+ .job-posting-container .job {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #fffdfb;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    /*box-shadow: 4px 6px 15px #bbbbbb;*/
+    box-shadow: 3px 5px 2px -1px rgba(15, 15, 15, 0.34)!important;
+}
+.job-posting-container .job .container-icon {
+    font-size: 40px;
+    line-height: 40px;
+    background: transparent;
+    color: #000000;
+    border-radius: 0px;
+    padding: 3px;
+}
+.job-posting-container .pagination{
+    margin: 10px 0 -25px;
+}
+.job-posting-container .job ul li i {
+    font-size: 20px;
+}
+.job-posting-container .job-logged-out {
+    padding: 20px;
+    background-color: #ffffff;
+    border-color: #fffdfb;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: 3px 5px 2px -1px rgba(15, 15, 15, 0.34)!important;
+    /*box-shadow: 4px 6px 15px #bbbbbb;*/
+    margin: 0 auto;
+    width: 650px;
+}
+.job-posting-container .job-logged-out .container-icon {
+    font-size: 40px;
+    line-height: 40px;
+    background: transparent;
+    color: #000000;
+    border-radius: 0px;
+    padding: 3px;
+}
+.job-posting-container .job-logged-out ul li i {
+    font-size: 20px;
+}
+.job-posting-container .job-applicant-list-container {
+    padding: 10px;
+    background-color: transparent;
+    /*border-color: transparent;*/
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    /*box-shadow: 4px 6px 15px #bbbbbb;*/
+    border: 1px solid #ffffff;
+    box-shadow: 3px 5px 2px -1px rgba(15, 15, 15, 0.34)!important;
+}
+.job-posting-container .job-applicant-list-container .container-icon {
+    font-size: 40px;
+    line-height: 40px;
+    background: transparent;
+    color: #000000;
+    border-radius: 0px;
+    padding: 3px;
+}
+.job-posting-container .job-applicant-list-container ul li i {
+  font-size: 18px;
+}
+ 
+  .job-photo {
+  height: 150px;
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+.job-info .media {
+  color: #000;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.applicant-photo {
+    height: 180px;
+    width: 180px;
+    max-width: none;
+}
+
+.applicant-list-container {
+    padding: 10px;
+    background-color: #ffffff;
+    border-color: #fffdfb;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    /*box-shadow: 4px 6px 15px #bbbbbb;*/
+    /*box-shadow: inset 3px 5px 2px -1px rgba(15, 15, 15, 0.34)!important;*/
+}
+.tasklist-row{
+    /*box-shadow: inset 3px 5px 2px -1px rgba(15, 15, 15, 0.34)!important;*/
+}
+.applicant-list-container .container-icon {
+    font-size: 40px;
+    line-height: 40px;
+    background: transparent;
+    color: #000000;
+    border-radius: 0px;
+    padding: 3px;
+}
+.applicant-list-container ul li i {
+  font-size: 18px;
+}
+.applicant-list-container .applicant-resume {
+  font-size: 25px;
+  font-weight: bold;
+}
+.applicant-list-container .applicant-phone {
+  font-size: 20px;
+}
+.applicant-list-container .applicant-phone i {
+  font-size: 30px;
+}
+.applicant-list-container .applicant-email {
+  font-size: 20px;
+}
+.applicant-list-container .applicant-email i {
+  font-size: 30px;
+}
+.applicant-list-container .delete-applicant {
+  font-size: 20px;
+}
+.applicant-header {
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  /* W3C */
+  /* IE6-9 */
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, #9bc9d8 0%, #9bc9d8 50%, #90c3d4 51%, #90c3d4 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#9bc9d8, endColorstr=#90c3d4, GradientType=0);
+  /* IE6-9 */
+  box-shadow: 4px 6px 15px #bbbbbb;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-topright: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  font-size: 18px !important;
+}
+
+.applicant-row {
+    padding-bottom: 15px;
+}
+
+.status-container {
+    display:none;
+}
+
+.job {
+    position: relative;
+    /*top: 25px;*/
+}
+
+.job-header {
+    position: relative;
+    top: 25px;
+}
+
+.job-column {
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.job-details {
+    position: relative;
+    left: 5px;
+}

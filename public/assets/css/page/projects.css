@@ -1,0 +1,26 @@
+/*
+    Project Module Css
+    Created on : May 18, 2016, 10:43:40 AM
+    Author     : Jexter Dean Buenaventura
+*/
+
+.space {
+    padding: 15px;
+}
+.mini-space {
+    padding: 5px;
+}
+
+.project-column {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    min-height: 112px;
+}
+
+.project-details {
+    position: relative;
+    /*left: 5px;*/
+}

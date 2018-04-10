@@ -1,0 +1,241 @@
+/*
+    Assign Module Css
+    Created on : July 5, 2016
+    Author     : Jexter Dean Buenaventura
+*/
+
+.space {
+    padding: 15px;
+}
+.mini-space {
+    padding: 5px;
+}
+
+.edit-profile {
+    cursor: pointer;
+}
+
+.task-permission .fa-plus, .job-permission .fa-plus  {
+    color: gray;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.taskgroup-title {
+    margin: 0 auto;
+    width: 25%;
+    color: black;
+    font-weight: bold;
+
+}
+
+.taskgroup-list > .list-group-item {
+    background-color: #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #e6e6e6!important;
+    /*padding: 4px 15px;*/
+}
+.task-list-container .taskgroup-list .list-group-item{
+    background-color: #ffffef;
+}
+.taskgroup-list > .list-group-item:first-child{
+    border-top: 1px solid #e6e6e6!important;
+}
+
+.fa-chevron-down {
+    color: #3c8dbc;
+}
+
+.profile-container .list-group-item {
+    background-color: #ffffef;
+    border: none;
+    padding: 4px 15px;
+}
+
+#company_tabs li.active a {
+    background-color: #e5e5e5;;
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+    text-shadow: 1px 3px 1px #ffffff, 0 0 0 #ffffff, 1px 1px 1px #ffffff!important;
+}
+
+#company_tabs a:focus {
+    /*color: #fff !important;*/
+}
+
+#company_tabs li a {
+    background-color: #4285f4;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow:1px 1px 1px #000000, 0 0 0 #000000, 1px 1px 1px #000000!important;
+}
+
+.employee-photo {
+    height: 100px;
+    width: 100px;
+}
+
+.edit-employee-photo {
+    height: 150px;
+    width: 150px;
+}
+
+.task-list {
+    margin-bottom: 0px;
+}
+
+.check-list-container {
+    max-height: none !important;
+    overflow-y: inherit !important;
+}
+#assign_tests .box-content .panel-body{
+    -moz-box-shadow: inset 0 0 15px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.4);
+    box-shadow: inset 0 0 15px rgba(0,0,0,.4);
+    padding: 10px;
+}
+#assign_tests .box-content > .list-group:not(.job-applicant-list) > .list-group-item{
+    border: none;
+    background: none!important;
+    padding: 5px;
+}
+#assign_tests .box-content > .list-group:not(.job-applicant-list){
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#assign_tests .unassign-test{
+    font-size: 25px;
+}
+#assign_tests .box .box-header, #assign_tests .panel-default .panel-heading{
+    background: #ffffff!important;
+}
+#assign_tests .panel-default{
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+}
+#assign_tests .box-default .box-body .box-content{
+    border-color: #ffffff!important;
+}
+
+.unassign-company,.unshare-job {
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+#share_jobs_tabs li a {
+    background-color: #4285f4;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000, 0 0 0 #000000, 1px 1px 1px #000000!important;
+}
+
+#share_jobs_tabs li.active a {
+    background-color: #e5e5e5;
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+    text-shadow: 1px 3px 1px #ffffff, 0 0 0 #ffffff, 1px 1px 1px #ffffff!important;
+}
+
+#projects_tabs li.active a {
+    background-color: #e5e5e5;
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+    text-shadow: 1px 3px 1px #ffffff, 0 0 0 #ffffff, 1px 1px 1px #ffffff!important;
+}
+
+#projects_tabs li a {
+    background-color: #4285f4;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000, 0 0 0 #000000, 1px 1px 1px #000000!important;
+}
+
+#assign_projects_tabs li.active a {
+    background-color: #e5e5e5;
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+    text-shadow: 1px 3px 1px #ffffff, 0 0 0 #ffffff, 1px 1px 1px #ffffff!important;
+}
+
+#my_jobs_tabs li a {
+    background-color: #4285f4;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000, 0 0 0 #000000, 1px 1px 1px #000000!important;
+}
+
+#my_jobs_tabs li.active a {
+    background-color: #e5e5e5;
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+    text-shadow: 1px 3px 1px #ffffff, 0 0 0 #ffffff, 1px 1px 1px #ffffff!important;
+}
+
+#assign_projects_tabs li a {
+    background-color: #4285f4;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000, 0 0 0 #000000, 1px 1px 1px #000000!important;
+}
+
+#assign_tabs li.active a {
+    background-color: #e5e5e5;
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+    text-shadow: 1px 3px 1px #ffffff, 0 0 0 #ffffff, 1px 1px 1px #ffffff!important;
+}
+
+#assign_tabs li a {
+    background-color: #4285f4;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000, 0 0 0 #000000, 1px 1px 1px #000000!important;
+}
+
+.employee-column {
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.employee-details {
+    position: relative;
+    left: 5px;
+}
+
+.box-project .box-header, 
+.box-employees .box-header, 
+.box-companies .box-header {
+    color: #fff !important;
+    background-color: #5af;
+}
+
+.box-project .box-body .box-content, 
+.box-employees .box-body .box-content, 
+.box-companies .box-body .box-content {
+    padding: 10px;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.4);
+    border: 5px solid #5af;
+}
+.company-link{
+    color: #683400!important;
+}

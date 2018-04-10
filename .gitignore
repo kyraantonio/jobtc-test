@@ -1,0 +1,22 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+### Laravel template
+/bootstrap/compiled.php
+.env.*.php
+.env.php
+.env
+
+/.idea/
+/.idea/copyright/
+/nbproject/private/
+/nbproject/
+public/assets/img/test/
+public/assets/img/question/
+/public/assets/job/
+/public/assets/applicant/photos/
+/public/assets/applicant/resumes/
+/public/assets/user/resumes/
+/.c9/
