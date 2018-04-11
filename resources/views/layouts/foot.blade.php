@@ -44,12 +44,14 @@
 </div>
 
 <?php $countries = \App\Models\Country::orderBy('country_name', 'asc')->lists('country_name', 'country_id')->toArray(); ?>
-<div class="modal fade bs-example-modal-sm" id="add_company" tabindex="-1" role="basic" aria-hidden="true">
+<div class="modal fade" id="add_company" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content" style="width: 70%;margin: 0 auto;">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                 <h4 class="modal-title">Add Company</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
                 {!!  Form::open(['route' => 'company.store','class' => 'form-horizontal client-form'])  !!}
@@ -162,7 +164,7 @@ $companies = \App\Models\Company::orderBy('name', 'asc')->lists('name', 'id');
 {!! HTML::script('assets/js/plugins/input-mask/jquery.inputmask.js')  !!}
 {!! HTML::script('assets/js/plugins/input-mask/jquery.inputmask.date.extensions.js') !!}
 {!! HTML::script('assets/js/plugins/input-mask/jquery.inputmask.extensions.js')  !!}
-{!! HTML::script('assets/material-dashboard/BS4/assets/js/bootstrap-material-design.min.js')  !!}
+
 
 {!! HTML::script('assets/js/countdown.timer.js')  !!}
 {!! HTML::script('assets/js/jquery-dateFormat.js')  !!}
@@ -170,6 +172,16 @@ $companies = \App\Models\Company::orderBy('name', 'asc')->lists('name', 'id');
 {{--Bootstrap Datetimepicker--}}
 {!! HTML::script('assets/js/bootstrap-datetimepicker.js')  !!}
 {!! HTML::style('assets/css/bootstrap-datetimepicker.css')  !!}
+
+<!-- BS4 Material Design -->
+<!-- {!! HTML::script('assets/material-dashboard/BS4/assets/js/bootstrap-material-design.min.js')  !!} -->
+ <!--   Core JS Files   -->
+    {!! HTML::script('assets/material-dashboard/BS4/assets/js/core/jquery.min.js') !!}
+    {!! HTML::script('assets/material-dashboard/BS4/assets/js/core/popper.min.js') !!}
+    {!! HTML::script('assets/material-dashboard/BS4/assets/js/bootstrap-material-design.js') !!}
+    
+    <!-- Material Dashboard Core initialisations of plugins and Bootstrap Material Design Library -->
+    {!! HTML::script('assets/material-dashboard/BS4/assets/js/material-dashboard.js?v=2.0.0') !!}
 
 <!--Wysiwyg Editor-->
 @if(!(Request::is('tickets/*') || Request::is('quiz/*')))

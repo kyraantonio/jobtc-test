@@ -10,7 +10,7 @@
                 @if(Auth::check())
                 {{--*/ $companies = \App\Helpers\Helper::getCompanyLinks() /*--}}
                 <li class="nav-item">
-                    <a class="nav-link" href="#add_company" data-toggle="modal"><i class="material-icons">add</i> <span>New Company</span></a>
+                    <a class="nav-link" data-target="#add_company" data-toggle="modal"><i class="material-icons">add</i> <span>New Company</span></a>
                 </li>
                 @if(count($companies) > 0)
                 @foreach($companies as $company)
@@ -409,23 +409,22 @@
                 @endforeach
                 @endif
                 @endif
-                <li class="divider"></li>
                 <li class="nav-item">
                     <!--a href="https://laravel.software/jangouts/dist/#/rooms/1234?user={{Auth::user('user')->name}}"><i class="fa fa-th-large" aria-hidden="true"></i> Meeting Room</a-->
-                    <a href="{{url('/discussions')}}"><i class="fa fa-th-large" aria-hidden="true"></i> Meeting Rooms</a>
+                    <a class="nav-link" href="{{url('/discussions')}}"><i class="material-icons">voice_chat</i> Meeting Rooms</a>
                 </li>
                 <li class="nav-item">
                     <!--a href="https://laravel.software/jangouts/dist/#/rooms/1234?user={{Auth::user('user')->name}}"><i class="fa fa-th-large" aria-hidden="true"></i> Meeting Room</a-->
-                    <a href="{{url('/indeed/importer')}}"><i class="fa fa-th-large" aria-hidden="true"></i> Indeed Importer</a>
+                    <a class="nav-link" href="{{url('/indeed/importer')}}"><i class="fa fa-th-large" aria-hidden="true"></i> Indeed Importer</a>
                 </li>
                 <li class="nav-item">
-                    <a target="_blank" href="{{ url('/dashboard') }}"><i class="material-icons">local_movies</i> My Dashboard</a>
+                    <a class="nav-link" target="_blank" href="{{ url('/dashboard') }}"><i class="material-icons">dashboard</i> My Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/profile') }}"><i class="glyphicon glyphicon-user"></i> My Profile</a>
+                    <a class="nav-link" href="{{ url('/profile') }}"><i class="material-icons">person</i> My Profile</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/logout') }}"><i class="glyphicon glyphicon-off"></i> Logout</a>
+                    <a class="nav-link" href="{{ url('/logout') }}"><i class="material-icons">exit_to_app</i> Logout</a>
                 </li>
             </ul>
         </div>
@@ -439,29 +438,34 @@
             </ul>
         </div>
     </div>
-    <div class="main-panel row">
-        <div class="col-lg-6 ">
+    <div class="container-fluid navbar-wrapper">
+        <div class="">
             <h3 class="navbar-brand">Name of Company Here</h3>
         </div>
-        <div class="col-lg-6">
+        <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navigation">
             {{--*/$modules = \App\Helpers\Helper::getSearchModules()/*--}}
-            <div class="">
-                <div class="input-group">
-                    <span class="input-group-btn">
-                        <select class="module-selector btn">
-                            @foreach($modules as $module)
-                            <option value="{{strtolower(str_singular($module->name))}}">{{$module->name}}</option>
-                            @endforeach
-                        </select>
-                    </span>
-                    <form class="form-inline ml-auto">
-                        <div class="form-group has-white">
-                          <input  id="search-field" name="search" type="text" class="form-control" placeholder="Search">
-                        </div>
-                    </form>
-                    <!-- <input id="search-field" name="search" type="text" class="form-control"> -->
+            <select class="btn btn-outline-primary dropdown-toggle"  type="button" aria-haspopup="true" aria-expanded="false">
+                @foreach($modules as $module)
+                <option value="{{strtolower(str_singular($module->name))}}">{{$module->name}}</option>
+                @endforeach
+            </select>
+            <!-- <form class="form-inline ml-auto">
+                <div class="form-group has-white">
+                  <input  id="search-field" name="search" type="text" class="form-control" placeholder="Search">
                 </div>
-            </div>
+            </form> -->
+            <form class="navbar-form">
+                <div class="input-group no-border ">
+                    <i class="material-icons">search</i>
+                    <input type="text" id="search-field" class="form-control" placeholder="Search...">
+                </div>
+            </form>
         </div>
     </div>
 </div>

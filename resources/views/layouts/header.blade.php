@@ -1,10 +1,10 @@
 @if (Auth::check('user'))
-<nav class="navbar navbar-default navbar-static-top navbar-border" role="navigation">
-    <div class="" id="navbar">
-        {{--<ul class="nav navbar-nav">--}}
+<div class="main-panel">
+<nav class="navbar navbar-expand-lg navbar-transparent  navbar-absolute fixed-top" id="navbar" role="navigation">
+        {{--<ul class="navbar-nav">--}}
         @include('layouts.menu')
         {{--</ul>--}}
-        {{--<ul class="nav navbar-nav pull-right">
+        {{--<ul class="navbar-nav">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle">
                     <i class="glyphicon glyphicon-user"></i>
@@ -21,6 +21,6 @@
         </ul>
         </li>
         </ul>--}}
-    </div>
 </nav>
+</div>
 @endif
