@@ -16,12 +16,12 @@
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <meta http-equiv="Expires" content="Tue, 01 Jan 1995 12:12:12 GMT">
         {!!  HTML::style('assets/material-dashboard/BS4/assets/css/material-dashboard.min.css')  !!}
-        {!!  HTML::style('assets/css/bootstrap.css')  !!}
+        <!-- {!!  HTML::style('assets/css/bootstrap.css')  !!} -->
         <!-- {!!  HTML::style('assets/css/font-awesome.min.css')  !!} -->
         {!!  HTML::style('assets/css/ionicons.min.css')  !!}
         {!!  HTML::style('assets/css/jquery-ui.min.css')  !!}
-        {!!  HTML::style('assets/custom.css')  !!}
-        {!! HTML::style('assets/css/AdminLTE.css')  !!}
+        <!-- {!!  HTML::style('assets/custom.css')  !!} -->
+        <!-- {!! HTML::style('assets/css/AdminLTE.css')  !!} -->
         <!-- {!!  HTML::style('assets/css/app.css')  !!} -->
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
