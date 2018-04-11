@@ -11,7 +11,7 @@
 
     </div>
     @endif
-    <div class="col-md-6">
+    <div class="col-md-4 login">
         <div class="card">
             <div class="card-body">
                 <form action="{{url('login')}}" method="post" class="account_form" id="login-form">
@@ -33,22 +33,27 @@
                                 <i class="fa fa-unlock"></i>
                             </span>
                             </div>
-                           <input type="password" class="form-control" aria-describedby="password-span" placeholder="Password" required="" name="password" tabindex="2" id="login_password" value="" />
+                            <input type="password" class="form-control" aria-describedby="password-span" placeholder="Password" required="" name="password" tabindex="2" id="login_password" value="" />
                         </div>
                     </div>
-                    <div class="form-group">
-                        <div class="form-check">
-                            <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" value="forever" checked name="remember"> Remember Me
-                            <span class="form-check-sign"><span class="check"></span>
-                            </span>
-                        </label>
+                    <div class="d-flex flex-row">
+                        <div class="p-2">
+                            <div class="input-group">
+                                <div class="checkbox">
+                                    <input type="checkbox" name="remember" tabindex="3" value="forever" checked/>
+                                    <label for="remember">Remember me</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 ml-auto">
+                            <p class="text-right">
+                                <a href="{{ url('forgotPassword') }}" class="lostpass text-info" title="Password Lost and Found">Forgot Password?</a>
+                            </p>
                         </div>
                     </div>
-                    <input type="submit" class="btn btn-edit btn-info submit btn-block" name="login" tabindex="4" value="Login" />
-                    <p class="text-right">
-                        <a href="{{ url('forgotPassword') }}" class="lostpass text-info" title="Password Lost and Found">Forgot Password?</a>
-                    </p>
+                    <input type="submit" class="btn btn-edit btn-info submit btn-block" name="login" tabindex="4" value="LOGIN" />
+
+                    <a href="{{ url('register') }}" class="btn btn-primary btn-block" title="Password Lost and Found">SIGN UP</a>
                 </form>
             </div>
         </div>

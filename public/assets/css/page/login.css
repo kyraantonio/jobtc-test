@@ -5,4 +5,35 @@ Login CSS
     Updated by : Jazmin Vernelle Aldana
 */
 
+html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+/*    background-image: url(https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-0.3.5&s=d6f82cfe462f2803e692c9e4f4944e0d&auto=format&fit=crop&w=1274&q=80);*/
+/*    background-image: url(https://images.unsplash.com/photo-1456324463128-7ff6903988d8?ixlib=rb-0.3.5&s=301a3497beb58849caedf738f0fca0f3&auto=format&fit=crop&w=1950&q=80);*/
+/*    background-image: url(https://images.pexels.com/photos/872958/pexels-photo-872958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
+    background-image: url(https://images.pexels.com/photos/926987/pexels-photo-926987.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center left;
+}
+
+.login{
+    position: absolute;
+    margin-top: 16%;
+}
