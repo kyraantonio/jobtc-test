@@ -1,54 +1,58 @@
-@extends('layouts.login')
-@section('content')
+@extends('layouts.login') @section('content')
 <!-- resources/views/auth/login.blade.php -->
-<div class="content-container">
-    <div class="main-content-container col-xs-12">
-        @if (count($errors->login) > 0)
-        <div class="alert alert-danger">
-            <ul>
-                @foreach ($errors->login->all() as $error)
-                <li>{{ $error }}</li>
-                @endforeach
-            </ul>
-        </div>
-        @endif
-        <div class="login-container">
-            <div class="col-xs-12">
-                <div class="space"></div>
+<div class="container d-flex align-self-center justify-content-center">
+    @if (count($errors->login) > 0)
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->login->all() as $error)
+            <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+
+    </div>
+    @endif
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
                 <form action="{{url('login')}}" method="post" class="account_form" id="login-form">
-
                     {!! csrf_field() !!}
-
-                    <div class="input-group">
-                        <!--label for="login_email">Email</label><br/-->
-                        <span class="input-group-addon" id="email-span"><i class="fa fa-envelope"></i></span>
-                        <input type="email" class="form-control" aria-describedby="email-span" placeholder="Email" required="" autofocus="" name="email" tabindex="1" id="login_email" value="{{ Request::old('email') }}" />
-                    </div>
-                    <br />
-                    <div class="input-group">
-                        <!--label for="login_password">Password</label><br/-->
-                        <span class="input-group-addon" id="password-span"><i class="fa fa-lock"></i></span>
-                        <input type="password" class="form-control" aria-describedby="password-span" placeholder="Password" required="" name="password" tabindex="2" id="login_password" value="" />
-                    </div>
-                    <div class="input-group">
-                        <div class="checkbox">
-                            <input type="checkbox" name="remember" tabindex="3" value="forever" checked/> 
-                            <label for="remember">Remember me</label>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                <i class="fa fa-envelope"></i>
+                            </span>
+                            </div>
+                            <input type="email" class="form-control" aria-describedby="email-span" placeholder="Email" required="" autofocus="" name="email" tabindex="1" id="login_email" value="{{ Request::old('email') }}" />
                         </div>
                     </div>
-                    <div class="input-group">
-                        <input type="submit" class="btn btn-edit btn-shadow submit" name="login" tabindex="4" value="Login" />
-                        <a href="{{ url('forgotPassword') }}" class="lostpass space" href="" title="Password Lost and Found">Lost your password?</a><br>
-                        <p style="font-size:16px;text-indent:77px;">New member?<a href="{{ url('register') }}" class="lostpass space" href="" title="Sig up">Sign up now!</a></p>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                <i class="fa fa-unlock"></i>
+                            </span>
+                            </div>
+                           <input type="password" class="form-control" aria-describedby="password-span" placeholder="Password" required="" name="password" tabindex="2" id="login_password" value="" />
+                        </div>
                     </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" value="forever" checked name="remember"> Remember Me
+                            <span class="form-check-sign"><span class="check"></span>
+                            </span>
+                        </label>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-edit btn-info submit btn-block" name="login" tabindex="4" value="Login" />
+                    <p class="text-right">
+                        <a href="{{ url('forgotPassword') }}" class="lostpass text-info" title="Password Lost and Found">Forgot Password?</a>
+                    </p>
                 </form>
-                <div class="space"></div>
             </div>
-        </div><!-- end section_header -->
+        </div>
     </div>
 </div>
+<!-- end section_header -->
 @stop
-
-
-
-
