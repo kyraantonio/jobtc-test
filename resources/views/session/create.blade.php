@@ -12,7 +12,12 @@
     </div>
     @endif
     <div class="col-md-4 login">
-        <div class="card">
+        <div class="card card-profile">
+            <div class="card-avatar">
+                                    <a href="#pablo">
+                                        <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Circle-icons-briefcase.svg/2000px-Circle-icons-briefcase.svg.png"/>
+                                    </a>
+                                </div>
             <div class="card-body">
                 <form action="{{url('login')}}" method="post" class="account_form" id="login-form">
                     {!! csrf_field() !!}
