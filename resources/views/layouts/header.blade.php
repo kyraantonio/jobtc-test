@@ -12,11 +12,11 @@
         </a>
         <ul class="dropdown-menu">
             <li>
-                <a href="{{ url('/profile') }}"><i class="glyphicon glyphicon-user"></i> My Profile</a>
+                <a href="{{ url('/profile') }}"><i class="material-icons">person</i> My Profile</a>
             </li>
             <li role="separator" class="divider"></li>
             <li>
-                <a href="{{ url('/logout') }}"><i class="glyphicon glyphicon-off"></i> Logout</a>
+                <a href="{{ url('/logout') }}"><i class="material-icons">exit_to_app</i></i> Logout</a>
             </li>
         </ul>
         </li>

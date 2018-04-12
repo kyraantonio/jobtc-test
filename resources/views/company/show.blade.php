@@ -64,9 +64,6 @@
                         </div>
                     </div>
 
-                    <!-- </div> -->
-                    <!-- <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6"> -->
                             <div class="card">
                                 <div class="card-header card-header-info">
                                     <h4 class="card-title"><a href="{{url('employees/' . $company_id)}}">Employees</a></h4>
@@ -86,8 +83,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        <!-- </div> -->
-                        <!-- <div class="col-lg-4 col-md-6 col-sm-6"> -->
+                      
                             <div class="card">
                                 <div class="card-header card-header-primary">
                                     <h4 class="card-title"><a href="{{url('companyLinks/' . $company_id)}}">Links</a></h4>
@@ -107,10 +103,8 @@
                                         @endforeach
                                     </ul>
                                 </div>
-                            </div>
-                        <!-- </div>
+                            </div> 
 
-                        <div class="col-lg-4 col-md-6 col-sm-6"> -->
                             <div class="card">
                                 <div class="card-header card-header-rose">
                                     <h4 class="card-title">Applicants</h4>
@@ -131,7 +125,7 @@
                             </div>
 
                             <div class="card">
-                                <div class="card-header card-header-danger">
+                                <div class="card-header card-header-warning">
                                     <h4 class="card-title">Briefcase Items</h4>
                                 </div>
                                 <div class="portlet-content">
@@ -148,41 +142,47 @@
                                     </ul>
                                 </div>
                             </div>
-                            @include('common.note',['note' => $note, 'belongs_to' => 'company', 'unique_id' => $company_id])
+
+
+                            <div class="card">
+                                <div class="card-header card-header-danger">
+                                    <h4 class="card-title">Comments</h4>
+                                </div>
+                                <div class="portlet-content">
+                                    <ul class='list-group'>
+                                       @foreach($comments as $comment)
+                                        <li class='list-group-item'>
+                                            <a target="_blank" data-toggle="tooltip" data-placement="top" title="{{'<strong>' . $comment->applicant->name . '</strong><br/><strong>JOB:</strong> ' . $comment->applicant->job->title}}" href="{{url('applicant/'.$comment->applicant->id)}}">{{$comment->comment}}</a>
+                                        </li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header card-header-success">
+                                    <h4 class="card-title">Briefcase</h4>
+                                </div>
+                                <div class="portlet-content">
+                                    <ul class='list-group'>
+                                       @foreach($briefcases as $briefcase)
+                                        <li class='list-group-item'>
+                                            @if(strlen($briefcase->task_title) > 23)
+                                            <a target="_blank" data-toggle="tooltip" data-placement="top" title="{{$briefcase->task_title}}" href="{{url('briefcase/'.$briefcase->task_id)}}">{{$briefcase->task_title}}</a>
+                                            @else
+                                            <a target="_blank" href="{{url('briefcase/'.$briefcase->task_id)}}">{{$briefcase->task_title}}</a>
+                                            @endif
+                                        </li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card">
+                                @include('common.note',['note' => $note, 'belongs_to' => 'company', 'unique_id' => $company_id])
+                            </div>
+
                         </div>
-                    <!-- </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6"> -->  
-                    <!-- </div> -->
-
                 </div>
-
-        </div>
-
-        <div class="column">
-            <div class="portlet fixed-portlet">
-                <div class="portlet-header reduce-portlet-header">Comments</div>
-                <div class="portlet-content">
-                    @foreach($comments as $comment)
-                    <li class='list-group-item'>
-                        <a target="_blank" data-toggle="tooltip" data-placement="top" title="{{'<strong>' . $comment->applicant->name . '</strong><br/><strong>JOB:</strong> ' . $comment->applicant->job->title}}" href="{{url('applicant/'.$comment->applicant->id)}}">{{$comment->comment}}</a>
-                    </li>
-                    @endforeach
-                </div>
-            </div>
-            <div class="portlet fixed-portlet">
-                <div class="portlet-header reduce-portlet-header">Briefcase</div>
-                <div class="portlet-content">
-                    @foreach($briefcases as $briefcase)
-                    <li class='list-group-item'>
-                        @if(strlen($briefcase->task_title) > 23)
-                        <a target="_blank" data-toggle="tooltip" data-placement="top" title="{{$briefcase->task_title}}" href="{{url('briefcase/'.$briefcase->task_id)}}">{{$briefcase->task_title}}</a>
-                        @else
-                        <a target="_blank" href="{{url('briefcase/'.$briefcase->task_id)}}">{{$briefcase->task_title}}</a>
-                        @endif
-                    </li>
-                    @endforeach
-                </div>
-            </div>
         </div>
     </div>
 </div>
