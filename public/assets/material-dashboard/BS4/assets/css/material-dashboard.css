@@ -25,6 +25,15 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+  .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
