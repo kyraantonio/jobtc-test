@@ -401,7 +401,7 @@
                             
                         @endif
 
-                        <a class="dashboard-item" href="{{ url('companyLinks/'.$company->company->id) }}"><i class="fa fa-globe" aria-hidden="true"></i> Links</a>
+                        <a class="nav-link" href="{{ url('companyLinks/'.$company->company->id) }}"><i class="fa fa-globe" aria-hidden="true"></i> Links</a>
 
                     </div>
                 </li>
