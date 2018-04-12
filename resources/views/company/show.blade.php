@@ -85,7 +85,7 @@
                             </div>
                       
                             <div class="card">
-                                <div class="card-header card-header-primary">
+                                <div class="card-header card-header-rose">
                                     <h4 class="card-title"><a href="{{url('companyLinks/' . $company_id)}}">Links</a></h4>
                                 </div>
                                 <div class="portlet-content">
@@ -106,7 +106,7 @@
                             </div> 
 
                             <div class="card">
-                                <div class="card-header card-header-rose">
+                                <div class="card-header card-header-warning">
                                     <h4 class="card-title">Applicants</h4>
                                 </div>
                                 <div class="portlet-content">
@@ -125,7 +125,7 @@
                             </div>
 
                             <div class="card">
-                                <div class="card-header card-header-warning">
+                                <div class="card-header card-header-danger">
                                     <h4 class="card-title">Briefcase Items</h4>
                                 </div>
                                 <div class="portlet-content">
@@ -145,7 +145,7 @@
 
 
                             <div class="card">
-                                <div class="card-header card-header-danger">
+                                <div class="card-header card-header-success">
                                     <h4 class="card-title">Comments</h4>
                                 </div>
                                 <div class="portlet-content">
@@ -160,7 +160,7 @@
                             </div>
 
                             <div class="card">
-                                <div class="card-header card-header-success">
+                                <div class="card-header card-header-info">
                                     <h4 class="card-title">Briefcase</h4>
                                 </div>
                                 <div class="portlet-content">
