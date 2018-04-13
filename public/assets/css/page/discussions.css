@@ -1,12 +1,12 @@
 /**
 ** Discussions CSS 
 */
-
+/*
 html,body{
     height: 100%,
     overflow:hidden;
     
-}
+}*/
 
 
 .select-style {
@@ -269,19 +269,10 @@ html,body{
     padding-top:20px;*/
 }
 
-.sidebar {
-   position: fixed;
-   top: 110px;
-   right: 5px;
-   width: 30%;
-   height: 100%;
- }
 
 .footer {
     position: fixed;
     bottom: 0;
-    /*width: 98%;
-    left: 10px;*/
     width: 100%;
     left: 0;
     padding: 0 15px;
