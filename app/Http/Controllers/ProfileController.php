@@ -8,6 +8,7 @@ use App\Models\User;
 use App\Models\Applicant;
 use App\Models\Country;
 use App\Models\PasswordReset;
+use App\Models\Profile;
 use Hash;
 use \DB;
 use \Auth;
@@ -34,7 +35,9 @@ class ProfileController extends BaseController {
 
         $assets = ['profiles'];
 
-        return view('user.profile', ['assets' => $assets, 'countries' => $countries_option]);
+        $profile = Profile::with('user')->where('user_id', $request)->where('company_id', $id)->first();
+
+        return view('user.profile', ['assets' => $assets, 'countries' => $countries_option, 'profile'=> $profile]);
     }
 
     public function changePassword(Request $request) {

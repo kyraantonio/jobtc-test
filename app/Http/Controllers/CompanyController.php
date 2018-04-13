@@ -118,6 +118,21 @@ class CompanyController extends BaseController {
             ->where('unique_id', '=', $company_id)
             ->first();
 
+        $user_id = Auth::user('user')->user_id;
+        
+        $permissions_list = [];
+
+        $permissions_user = PermissionUser::with('permission')
+                ->where('company_id', $company_id)
+                ->where('user_id', $user_id)
+                ->get();
+
+        foreach ($permissions_user as $role) {
+            array_push($permissions_list, $role->permission_id);
+        }
+
+        $module_permissions = Permission::whereIn('id', $permissions_list)->get();
+
         $assets = ['companies', 'real-time'];
 
         return View::make('company.show', [
@@ -132,7 +147,8 @@ class CompanyController extends BaseController {
                     'tests' => $tests,
                     'note' => $note,
                     'company_id' => $company_id,
-                    'assets' => $assets
+                    'assets' => $assets,
+                    'module_permissions' => $module_permissions
         ]);
     }
 

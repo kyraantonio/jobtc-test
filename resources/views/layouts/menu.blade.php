@@ -438,35 +438,6 @@
             </ul>
         </div>
     </div>
-    <div class="container-fluid navbar-wrapper">
-        <div class="">
-            <h3 class="navbar-brand">Name of Company Here</h3>
-        </div>
-        <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="navbar-toggler-icon icon-bar"></span>
-            <span class="navbar-toggler-icon icon-bar"></span>
-            <span class="navbar-toggler-icon icon-bar"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navigation">
-            {{--*/$modules = \App\Helpers\Helper::getSearchModules()/*--}}
-            <select class="btn btn-outline-primary dropdown-toggle"  type="button" aria-haspopup="true" aria-expanded="false">
-                @foreach($modules as $module)
-                <option value="{{strtolower(str_singular($module->name))}}">{{$module->name}}</option>
-                @endforeach
-            </select>
-            <!-- <form class="form-inline ml-auto">
-                <div class="form-group has-white">
-                  <input  id="search-field" name="search" type="text" class="form-control" placeholder="Search">
-                </div>
-            </form> -->
-            <form class="navbar-form">
-                <div class="input-group no-border ">
-                    <i class="material-icons">search</i>
-                    <input type="text" id="search-field" class="form-control" placeholder="Search...">
-                </div>
-            </form>
-        </div>
-    </div>
+    
 </div>
 

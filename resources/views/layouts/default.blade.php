@@ -2,11 +2,10 @@
 <body>
 
 @include('layouts.header')
-<div class="wrapper row-offcanvas row-offcanvas-left">
+<div class="main-panel">
 
-    <section class="content">
-        {{ \App\Helpers\Helper::showMessage() }}
-        @yield('content')
-    </section>
+    {{ \App\Helpers\Helper::showMessage() }}
+    @yield('content')
+    
 </div>
 @include('layouts.foot')
