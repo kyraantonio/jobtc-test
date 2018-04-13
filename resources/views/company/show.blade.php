@@ -7,7 +7,7 @@
                         <div class="card-header card-header-primary">
                             <h4 class="card-title"><a href="{{url('company/' . $company_id . '/projects')}}">Projects</a></h4>
                         </div>
-                        <div class="card-body">
+                        <div class="container-fluid">
                             <table class="table">
                                 @foreach($projects as $project)
                                 <tbody>
@@ -24,16 +24,16 @@
                                         </td>
                                     </tr>                                    
                                     @endif
+                                    <tr>
+                                        <td class="text-center">
+                                            @if($module_permissions->where('slug','create.projects')->count() === 1)
+                                            <a class="btn btn-info btn-sm" href="#add_project" data-toggle="modal"><span><i class="material-icons" aria-hidden="true">add</i> New Project</span></a>
+                                            @endif
+                                        </td>
+                                    </tr>
                                 </tbody>
                                 @endforeach
                             </table>
-                        </div>
-                        <div class="card-footer">
-                            @if($module_permissions->where('slug','create.projects')->count() === 1)
-                            <div class="center">
-                                <a class="btn btn-info btn-sm" href="#add_project" data-toggle="modal"><span><i class="material-icons" aria-hidden="true">add</i> New Project</span></a>
-                            </div>
-                            @endif
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@
                         <div class="card-header card-header-info">
                             <h4 class="card-title"><a href="{{url('company/' . $company_id . '/jobs')}}">Jobs</a></h4>
                         </div>
-                        <div class="card-body">
+                        <div class="container-fluid">
                             <table class="table">
                                 <tbody>
                                @foreach($jobs as $job)
@@ -57,15 +57,15 @@
                                     @endif
                                 </tr>
                                 @endforeach
+                                <tr>
+                                    @if($module_permissions->where('slug','create.jobs')->count() === 1)
+                                    <td class="text-center">
+                                        <a class="btn btn-info btn-sm" href="#add_job" data-toggle="modal"><span><i class="material-icons" aria-hidden="true">add</i> New Job</span></a>
+                                    </td>
+                                    @endif
+                                </tr>
                                 </tbody>
                             </table>
-                        </div>
-                        <div class="card-footer">
-                            @if($module_permissions->where('slug','create.jobs')->count() === 1)
-                            <div class="center">
-                                <a class="btn btn-info btn-sm" href="#add_job" data-toggle="modal"><span><i class="material-icons" aria-hidden="true">add</i> New Project</span></a>
-                            </div>
-                            @endif
                         </div>
                     </div>
                 <!-- </div>
