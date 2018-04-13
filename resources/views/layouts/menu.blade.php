@@ -413,10 +413,9 @@
                     <!--a href="https://laravel.software/jangouts/dist/#/rooms/1234?user={{Auth::user('user')->name}}"><i class="fa fa-th-large" aria-hidden="true"></i> Meeting Room</a-->
                     <a class="nav-link" href="{{url('/discussions')}}"><i class="material-icons">voice_chat</i> Meeting Rooms</a>
                 </li>
-                <li class="nav-item">
-                    <!--a href="https://laravel.software/jangouts/dist/#/rooms/1234?user={{Auth::user('user')->name}}"><i class="fa fa-th-large" aria-hidden="true"></i> Meeting Room</a-->
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="{{url('/indeed/importer')}}"><i class="fa fa-th-large" aria-hidden="true"></i> Indeed Importer</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" target="_blank" href="{{ url('/dashboard') }}"><i class="material-icons">dashboard</i> My Dashboard</a>
                 </li>
