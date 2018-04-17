@@ -425,14 +425,5 @@
             </li>
         </ul>
     </div>
-    {{--*/ $breadcrumbs = \App\Helpers\Helper::getBreadcrumbs() /*--}}
-    <div class="breadcrumb_container">
-        <ul class="breadcrumb">
-            @foreach($breadcrumbs as $title => $url)
-            <li><a href="{{url($url)}}" title="{{$title}}">{{$title}}</a></li>
-            <!-- <li><a href="{{url($url)}}" title="{{$title}}" data-toggle="tooltip" data-placement="right">{{$title}}</a></li> -->
-            @endforeach
-        </ul>
-    </div>
 </div>
 
